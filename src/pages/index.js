@@ -1,13 +1,14 @@
 import * as React from 'react';
+import { Link } from 'gatsby';
+import Layout from '../components/layout';
 
-const Homepage = () => {
+const HomePage = () => {
   return (
-    <>
-      <h1>Hello ZY!</h1>
-      <p>How are you today?</p>
-    </>
+    <Layout pageHeading='Home' pageTitle='Zy Home' >
+      Welcome to my page
+    </Layout >
   );
 };
 
-export default Homepage;
 
+export default HomePage;
